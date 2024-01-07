@@ -1,0 +1,52 @@
+GET http://localhost:3000/ngajis/6599a9dfc1aef5a275d72af7
+
+### 
+GET http://localhost:3000/users/login
+
+###
+POST http://localhost:3000/users/login
+Content-Type: application/json
+
+{ 
+    "username": "zuhad",
+    "password": "zuhad123"
+}
+
+
+    
+### 
+GET http://localhost:3000/tasks/6590b28a9bb5472026700d1d
+
+###
+POST http://localhost:3000/ngajis
+Content-Type: application/json
+
+{
+    "studentsName": "maki", 
+    "teachersName": "qeis",
+    "date": "2024/01/11",
+    "surahRead": "ali imran",
+    "ayahRead": 59,
+    "surahMemorize": "al baqarah",
+    "ayahMemorize": 23
+}
+
+###
+POST https://caku-api-test-production.up.railway.app/users
+Content-Type: application/json
+
+{
+    "username": "zuhadha", 
+    "password": "zuhad123",
+}
+
+### 
+DELETE http://localhost:3000/tasks/6590b116981cca474e103027
+
+### 
+PATCH http://localhost:3000/tasks/6590b28a9bb5472026700d1d
+Content-Type: application/json
+
+{
+    "title": "membuat aplikasi sederhana"
+}
